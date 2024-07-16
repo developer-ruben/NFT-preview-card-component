@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Frontend Mentor | NFT preview card component</h1>
+      <article class="card">
+        <div class="card__image-container">
+          <img
+            class="card__image"
+            src="./images/image-equilibrium.jpg"
+            width="604"
+            height="604"
+            alt="Image of equilibrium"
+          />
+          <div class="card__image-overlay">
+            <img src="./images/icon-view.svg" width="48" height="48" alt="" />
+          </div>
+        </div>
+        <div class="card__content">
+          <a class="card__link" href="#"
+            ><h2 class="card__title">Equilibrium #3429</h2></a
+          >
+          <p class="card__text">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+        </div>
+        <div class="card__badges">
+          <span class="card__badge card__badge--cyan"
+            ><img
+              src="./images/icon-ethereum.svg"
+              width="11"
+              height="18"
+              alt=""
+            />
+            0.041 ETH</span
+          >
+          <span class="card__badge card__badge--blue"
+            ><img src="./images/icon-clock.svg" width="17" height="17" alt="" />
+            3 days left</span
+          >
+        </div>
+        <footer class="card__footer">
+          <img
+            class="card__avatar"
+            src="./images/image-avatar.png"
+            width="33"
+            height="33"
+            alt="Image of Jules Wyvern"
+          />
+          <span class="card__creator">
+            Creation of <a href="#" class="card__link">Jules Wyvern</a></span
+          >
+        </footer>
+      </article>
+    </main>
+
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Ruben de Man</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>

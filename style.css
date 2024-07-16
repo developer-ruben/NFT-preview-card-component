@@ -101,6 +101,7 @@ img {
 
 .card__title {
   font-size: 2.2rem;
+  font-weight: 600;
 }
 
 .card__text {

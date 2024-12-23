@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="A preview card for showcasing NFT details, designed for a Frontend Mentor challenge."
+    />
+    <meta name="keywords" content="preview,card,nft,details" />
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="card__image-container">
+          <img
+            class="card__image"
+            src="./assets/images/image-equilibrium.jpg"
+            width="302"
+            height="302"
+            alt="Preview of NFT artwork Equilibrium #3429"
+          />
+          <div class="card__image-overlay">
+            <img
+              src="./assets/images/icon-view.svg"
+              width="48"
+              height="48"
+              alt="View NFT details"
+            />
+          </div>
+        </div>
+        <div class="card__body">
+          <a class="card__link" href="#">
+            <h2 class="card__title">Equilibrium #3429</h2></a
+          >
+          <p class="card__text">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="card__details">
+            <a class="card__eth" href="#">
+              <img
+                src="./assets/images/icon-ethereum.svg"
+                width="11"
+                height="18"
+                alt=""
+              />
+              0.041 ETH
+            </a>
+            <a class="card__clock" href="#"
+              ><img
+                src="./assets/images/icon-clock.svg"
+                width="17"
+                height="17"
+                alt=""
+              />
+              3 days left
+            </a>
+          </div>
+        </div>
+        <footer class="card__footer">
+          <img
+            class="card__avatar"
+            src="./assets/images/image-avatar.png"
+            width="33"
+            height="33"
+            alt="Picture of creator Jules Wyvern"
+          />
+          <span
+            >Creation of <a class="card__link" href="#">Jules Wyvern</a></span
+          >
+        </footer>
+      </section>
+    </main>
+
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Ruben de Man</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
